@@ -20,7 +20,7 @@ fn main() {
 
     let number: f64 = number.trim().parse().unwrap();
 
-    println!("Do you want converted in Fahrenheit or Celsius ? (answer by F or C)");
+    println!("Do you want it converted in Fahrenheit or Celsius ? (answer by F or C)");
 
     let mut response = String::new();
 
